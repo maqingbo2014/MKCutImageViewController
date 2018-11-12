@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MKCutImageViewController_Example' do
+  pod 'MKCutImageViewController', :path => '../'
+
+  target 'MKCutImageViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
