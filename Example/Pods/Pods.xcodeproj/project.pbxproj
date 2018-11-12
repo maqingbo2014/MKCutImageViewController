@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16D68B0C856925B4B29330B2128C2C1A /* MKCutImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D482F114B95952A29982FBD9E9E0BAD /* MKCutImageViewController.m */; };
+		328F356A21E24F896B4289D09E71B244 /* MKCutImageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF793FC264A7E6B09C381DC60CDFC373 /* MKCutImageViewController-dummy.m */; };
+		403BD8B0FFEA23762E6D09FC75ACF274 /* MKCutImageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CC148DA3C9A4F421BCD77AA52A168BAE /* MKCutImageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4550361DE480A83D6485497060545293 /* MKCutImageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C84A9401BAF3E65E5D1999EEEFE44A0D /* MKCutImageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		533DEF16D8D2182B773A8014FB1F4F7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		723F831282528C5648E846AEC1840B9E /* Pods-MKCutImageViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C01223F5C04EBEF7358DCB1B5F61F48B /* Pods-MKCutImageViewController_Tests-dummy.m */; };
+		81E38CF631D5F63519CAA8DFCC871D83 /* Pods-MKCutImageViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 643855994BAA8812414107B2BBFCF0D6 /* Pods-MKCutImageViewController_Example-dummy.m */; };
+		8ECD4A441B93346A37C7BAA62F5E3844 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F9918CAB43F2639B841F00D2AF9E34 /* ReplaceMe.m */; };
+		9BA53E667F2E3A5965B9D16915F4872F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BA2184B09823D36AE0B9AB173B1A749D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F5D479121BFD9FB5B11A6F362095A14B /* Pods-MKCutImageViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0F9EBE76DC7E5DBAF1A043779C1830 /* Pods-MKCutImageViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBC4E58E20CCD0BF7029A1B4AE11622B /* Pods-MKCutImageViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9461DA92E89864F7CFFCAD016F62AB /* Pods-MKCutImageViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1523A4AA2E795854508B10450657BCAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E477751966428D7F7A2549FC5D1EFF0A;
+			remoteInfo = "Pods-MKCutImageViewController_Example";
+		};
+		CEB7CBB0FB295EB103630AF43D4260EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65A077D3E8211B7F37B4E706725E15A7;
+			remoteInfo = MKCutImageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026CA5AC3A8B050861F5DFF932673A8F /* Pods-MKCutImageViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKCutImageViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A6A458BD3A4A0846FDE59CF5172C8BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0D482F114B95952A29982FBD9E9E0BAD /* MKCutImageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKCutImageViewController.m; path = MKCutImageViewController/Classes/MKCutImageViewController.m; sourceTree = "<group>"; };
+		2B0F9EBE76DC7E5DBAF1A043779C1830 /* Pods-MKCutImageViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MKCutImageViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		3102FA67A3B1354DE5BBA2569EB1FB5D /* Pods_MKCutImageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKCutImageViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A5469B363646645A89BC15D1715EFB /* Pods-MKCutImageViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKCutImageViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3C7E7E75D2132A87F440386F93DF2D71 /* Pods-MKCutImageViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MKCutImageViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		424A9E2285A34FA3563E6E20CD7A48B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4432592E83498D737675B3FA632B9696 /* Pods-MKCutImageViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKCutImageViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		51FF39646465D522B3B9C6F95DB05379 /* Pods-MKCutImageViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MKCutImageViewController_Example.modulemap"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D3A75AD9CFC45314F9C3CB108A931F5 /* MKCutImageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKCutImageViewController.xcconfig; sourceTree = "<group>"; };
+		5EAB458E8B830D717C8B18260094300B /* MKCutImageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKCutImageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		643855994BAA8812414107B2BBFCF0D6 /* Pods-MKCutImageViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MKCutImageViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		6A3BE12D687DA1E7CACDA0D25EF5CF79 /* Pods-MKCutImageViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKCutImageViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		6DE3FD1A32DC973CE026785DA044610F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C9461DA92E89864F7CFFCAD016F62AB /* Pods-MKCutImageViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MKCutImageViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8A718796827DEBBB4AAE78FA1AEAB90C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D57B0014ADF77E0854BDC89FA4E9DA4 /* MKCutImageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MKCutImageViewController.modulemap; sourceTree = "<group>"; };
+		929AF5C50B208279D5A281D08A3E1252 /* Pods-MKCutImageViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MKCutImageViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		92F22C993D241A59CA8E712F7BC8661B /* Pods-MKCutImageViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MKCutImageViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9988B720E48DAE6F08FF0A202EF7DEC3 /* Pods-MKCutImageViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MKCutImageViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		A51890833EBD6B1BE08C57BE72468982 /* Pods_MKCutImageViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKCutImageViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCEB97087F29C1FFE93D826B18AF008 /* Pods-MKCutImageViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKCutImageViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		AD76F4E7C1EB92B645E78C9A2CF9DB7B /* Pods-MKCutImageViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKCutImageViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AE35A3FF5FD6DF413074833362105BF4 /* Pods-MKCutImageViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKCutImageViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C01223F5C04EBEF7358DCB1B5F61F48B /* Pods-MKCutImageViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MKCutImageViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		C4C1D6B0EE9355AE3110ACF5BCC510A5 /* MKCutImageViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MKCutImageViewController.podspec; sourceTree = "<group>"; };
+		C84A9401BAF3E65E5D1999EEEFE44A0D /* MKCutImageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKCutImageViewController-umbrella.h"; sourceTree = "<group>"; };
+		CC148DA3C9A4F421BCD77AA52A168BAE /* MKCutImageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKCutImageViewController.h; path = MKCutImageViewController/Classes/MKCutImageViewController.h; sourceTree = "<group>"; };
+		DBCADFA59D2553319295AF2D32CAF29A /* Pods-MKCutImageViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MKCutImageViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF408D55E091EE57308F777467106FC1 /* Pods-MKCutImageViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKCutImageViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DF793FC264A7E6B09C381DC60CDFC373 /* MKCutImageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKCutImageViewController-dummy.m"; sourceTree = "<group>"; };
+		E2F9918CAB43F2639B841F00D2AF9E34 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MKCutImageViewController/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		E56398E7ACD19A5BF0394F47FC938457 /* MKCutImageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKCutImageViewController-prefix.pch"; sourceTree = "<group>"; };
+		EE03F2AA9B8202E14A5880AD6F95C779 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35B232055C894F1D4CE949D6B6733505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2184B09823D36AE0B9AB173B1A749D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA16C601310B4CA3D8B716A805C90EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA53E667F2E3A5965B9D16915F4872F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22CFA39EF647FB8EDA6F9ED7EDFEAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533DEF16D8D2182B773A8014FB1F4F7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		283B99BC812311F27E78F38A7E28FD8D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE05FDCE12BA869553E17C94D6AC6A27 /* MKCutImageViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		47B8E65536B7363B094EB0EF9F9D97A1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EE03F2AA9B8202E14A5880AD6F95C779 /* LICENSE */,
+				C4C1D6B0EE9355AE3110ACF5BCC510A5 /* MKCutImageViewController.podspec */,
+				0A6A458BD3A4A0846FDE59CF5172C8BA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64B7A13928158F6D910702E911B74EF4 /* Pods-MKCutImageViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				424A9E2285A34FA3563E6E20CD7A48B4 /* Info.plist */,
+				51FF39646465D522B3B9C6F95DB05379 /* Pods-MKCutImageViewController_Example.modulemap */,
+				DBCADFA59D2553319295AF2D32CAF29A /* Pods-MKCutImageViewController_Example-acknowledgements.markdown */,
+				929AF5C50B208279D5A281D08A3E1252 /* Pods-MKCutImageViewController_Example-acknowledgements.plist */,
+				643855994BAA8812414107B2BBFCF0D6 /* Pods-MKCutImageViewController_Example-dummy.m */,
+				37A5469B363646645A89BC15D1715EFB /* Pods-MKCutImageViewController_Example-frameworks.sh */,
+				ABCEB97087F29C1FFE93D826B18AF008 /* Pods-MKCutImageViewController_Example-resources.sh */,
+				2B0F9EBE76DC7E5DBAF1A043779C1830 /* Pods-MKCutImageViewController_Example-umbrella.h */,
+				DF408D55E091EE57308F777467106FC1 /* Pods-MKCutImageViewController_Example.debug.xcconfig */,
+				AE35A3FF5FD6DF413074833362105BF4 /* Pods-MKCutImageViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-MKCutImageViewController_Example";
+			path = "Target Support Files/Pods-MKCutImageViewController_Example";
+			sourceTree = "<group>";
+		};
+		6A5610285704D2FDD44B64F5D3D544DC /* Pods-MKCutImageViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6DE3FD1A32DC973CE026785DA044610F /* Info.plist */,
+				9988B720E48DAE6F08FF0A202EF7DEC3 /* Pods-MKCutImageViewController_Tests.modulemap */,
+				3C7E7E75D2132A87F440386F93DF2D71 /* Pods-MKCutImageViewController_Tests-acknowledgements.markdown */,
+				92F22C993D241A59CA8E712F7BC8661B /* Pods-MKCutImageViewController_Tests-acknowledgements.plist */,
+				C01223F5C04EBEF7358DCB1B5F61F48B /* Pods-MKCutImageViewController_Tests-dummy.m */,
+				4432592E83498D737675B3FA632B9696 /* Pods-MKCutImageViewController_Tests-frameworks.sh */,
+				6A3BE12D687DA1E7CACDA0D25EF5CF79 /* Pods-MKCutImageViewController_Tests-resources.sh */,
+				7C9461DA92E89864F7CFFCAD016F62AB /* Pods-MKCutImageViewController_Tests-umbrella.h */,
+				026CA5AC3A8B050861F5DFF932673A8F /* Pods-MKCutImageViewController_Tests.debug.xcconfig */,
+				AD76F4E7C1EB92B645E78C9A2CF9DB7B /* Pods-MKCutImageViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-MKCutImageViewController_Tests";
+			path = "Target Support Files/Pods-MKCutImageViewController_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				283B99BC812311F27E78F38A7E28FD8D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EB50E8BD56818C6EE42F1F5AC2A0B81D /* Products */,
+				9D430DCB32D104ED26004D505646A554 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D430DCB32D104ED26004D505646A554 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64B7A13928158F6D910702E911B74EF4 /* Pods-MKCutImageViewController_Example */,
+				6A5610285704D2FDD44B64F5D3D544DC /* Pods-MKCutImageViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE05FDCE12BA869553E17C94D6AC6A27 /* MKCutImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC148DA3C9A4F421BCD77AA52A168BAE /* MKCutImageViewController.h */,
+				0D482F114B95952A29982FBD9E9E0BAD /* MKCutImageViewController.m */,
+				E2F9918CAB43F2639B841F00D2AF9E34 /* ReplaceMe.m */,
+				47B8E65536B7363B094EB0EF9F9D97A1 /* Pod */,
+				F83E7EACA4B8E62BE41D0223F2AFA050 /* Support Files */,
+			);
+			name = MKCutImageViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EB50E8BD56818C6EE42F1F5AC2A0B81D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EAB458E8B830D717C8B18260094300B /* MKCutImageViewController.framework */,
+				A51890833EBD6B1BE08C57BE72468982 /* Pods_MKCutImageViewController_Example.framework */,
+				3102FA67A3B1354DE5BBA2569EB1FB5D /* Pods_MKCutImageViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F83E7EACA4B8E62BE41D0223F2AFA050 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A718796827DEBBB4AAE78FA1AEAB90C /* Info.plist */,
+				8D57B0014ADF77E0854BDC89FA4E9DA4 /* MKCutImageViewController.modulemap */,
+				5D3A75AD9CFC45314F9C3CB108A931F5 /* MKCutImageViewController.xcconfig */,
+				DF793FC264A7E6B09C381DC60CDFC373 /* MKCutImageViewController-dummy.m */,
+				E56398E7ACD19A5BF0394F47FC938457 /* MKCutImageViewController-prefix.pch */,
+				C84A9401BAF3E65E5D1999EEEFE44A0D /* MKCutImageViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MKCutImageViewController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AC99B0CEC878D070DC179507D463A5C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D479121BFD9FB5B11A6F362095A14B /* Pods-MKCutImageViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63F2500EBE255708C7B57DD711F8F13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC4E58E20CCD0BF7029A1B4AE11622B /* Pods-MKCutImageViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C58B8B2FE3ABED73B146A1A5894435 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4550361DE480A83D6485497060545293 /* MKCutImageViewController-umbrella.h in Headers */,
+				403BD8B0FFEA23762E6D09FC75ACF274 /* MKCutImageViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		65A077D3E8211B7F37B4E706725E15A7 /* MKCutImageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1DD95C9EB287C4009CF4C564FCA938D /* Build configuration list for PBXNativeTarget "MKCutImageViewController" */;
+			buildPhases = (
+				073F7C493A14AB4F8F2ECFC7005204B0 /* Sources */,
+				35B232055C894F1D4CE949D6B6733505 /* Frameworks */,
+				F8C58B8B2FE3ABED73B146A1A5894435 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKCutImageViewController;
+			productName = MKCutImageViewController;
+			productReference = 5EAB458E8B830D717C8B18260094300B /* MKCutImageViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E477751966428D7F7A2549FC5D1EFF0A /* Pods-MKCutImageViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A21367B248AABBC85A0C4F40950E40 /* Build configuration list for PBXNativeTarget "Pods-MKCutImageViewController_Example" */;
+			buildPhases = (
+				704A6B5FF3197B7BE1A1D94023BEA5F3 /* Sources */,
+				AA16C601310B4CA3D8B716A805C90EF0 /* Frameworks */,
+				AC99B0CEC878D070DC179507D463A5C2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62E04BDEE27037A4A1E7976341D8148D /* PBXTargetDependency */,
+			);
+			name = "Pods-MKCutImageViewController_Example";
+			productName = "Pods-MKCutImageViewController_Example";
+			productReference = A51890833EBD6B1BE08C57BE72468982 /* Pods_MKCutImageViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB3A63B632821CC0916624EC66A8A090 /* Pods-MKCutImageViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BB59D7256FB8DB19E672290D436F93 /* Build configuration list for PBXNativeTarget "Pods-MKCutImageViewController_Tests" */;
+			buildPhases = (
+				AF8ECBF9755ABD13D039F967984E9AE1 /* Sources */,
+				D22CFA39EF647FB8EDA6F9ED7EDFEAE3 /* Frameworks */,
+				F63F2500EBE255708C7B57DD711F8F13 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396E8F0F6F813FD6A61DC8F9F2F06DF1 /* PBXTargetDependency */,
+			);
+			name = "Pods-MKCutImageViewController_Tests";
+			productName = "Pods-MKCutImageViewController_Tests";
+			productReference = 3102FA67A3B1354DE5BBA2569EB1FB5D /* Pods_MKCutImageViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EB50E8BD56818C6EE42F1F5AC2A0B81D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65A077D3E8211B7F37B4E706725E15A7 /* MKCutImageViewController */,
+				E477751966428D7F7A2549FC5D1EFF0A /* Pods-MKCutImageViewController_Example */,
+				FB3A63B632821CC0916624EC66A8A090 /* Pods-MKCutImageViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		073F7C493A14AB4F8F2ECFC7005204B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328F356A21E24F896B4289D09E71B244 /* MKCutImageViewController-dummy.m in Sources */,
+				16D68B0C856925B4B29330B2128C2C1A /* MKCutImageViewController.m in Sources */,
+				8ECD4A441B93346A37C7BAA62F5E3844 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		704A6B5FF3197B7BE1A1D94023BEA5F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E38CF631D5F63519CAA8DFCC871D83 /* Pods-MKCutImageViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8ECBF9755ABD13D039F967984E9AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723F831282528C5648E846AEC1840B9E /* Pods-MKCutImageViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		396E8F0F6F813FD6A61DC8F9F2F06DF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MKCutImageViewController_Example";
+			target = E477751966428D7F7A2549FC5D1EFF0A /* Pods-MKCutImageViewController_Example */;
+			targetProxy = 1523A4AA2E795854508B10450657BCAA /* PBXContainerItemProxy */;
+		};
+		62E04BDEE27037A4A1E7976341D8148D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MKCutImageViewController;
+			target = 65A077D3E8211B7F37B4E706725E15A7 /* MKCutImageViewController */;
+			targetProxy = CEB7CBB0FB295EB103630AF43D4260EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08BB7900AB40B7A8797A1F0BDB2B1BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD76F4E7C1EB92B645E78C9A2CF9DB7B /* Pods-MKCutImageViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MKCutImageViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKCutImageViewController_Tests/Pods-MKCutImageViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		743226FBE819B78E808203B0B845A1B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 026CA5AC3A8B050861F5DFF932673A8F /* Pods-MKCutImageViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MKCutImageViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKCutImageViewController_Tests/Pods-MKCutImageViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76E9CB1799ABD0E65C1A9B04CAFF591D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3A75AD9CFC45314F9C3CB108A931F5 /* MKCutImageViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MKCutImageViewController/MKCutImageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKCutImageViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKCutImageViewController/MKCutImageViewController.modulemap";
+				PRODUCT_MODULE_NAME = MKCutImageViewController;
+				PRODUCT_NAME = MKCutImageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B9901243C823EB5E59FB7F29C819EDD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3A75AD9CFC45314F9C3CB108A931F5 /* MKCutImageViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MKCutImageViewController/MKCutImageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKCutImageViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKCutImageViewController/MKCutImageViewController.modulemap";
+				PRODUCT_MODULE_NAME = MKCutImageViewController;
+				PRODUCT_NAME = MKCutImageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D46BF44C8D533E313C8DC4F3D0A6B301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE35A3FF5FD6DF413074833362105BF4 /* Pods-MKCutImageViewController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MKCutImageViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKCutImageViewController_Example/Pods-MKCutImageViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD940DBA3FB4F2DB8E3435326F0A8229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF408D55E091EE57308F777467106FC1 /* Pods-MKCutImageViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MKCutImageViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKCutImageViewController_Example/Pods-MKCutImageViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17A21367B248AABBC85A0C4F40950E40 /* Build configuration list for PBXNativeTarget "Pods-MKCutImageViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD940DBA3FB4F2DB8E3435326F0A8229 /* Debug */,
+				D46BF44C8D533E313C8DC4F3D0A6B301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BB59D7256FB8DB19E672290D436F93 /* Build configuration list for PBXNativeTarget "Pods-MKCutImageViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743226FBE819B78E808203B0B845A1B9 /* Debug */,
+				08BB7900AB40B7A8797A1F0BDB2B1BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1DD95C9EB287C4009CF4C564FCA938D /* Build configuration list for PBXNativeTarget "MKCutImageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E9CB1799ABD0E65C1A9B04CAFF591D /* Debug */,
+				B9901243C823EB5E59FB7F29C819EDD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

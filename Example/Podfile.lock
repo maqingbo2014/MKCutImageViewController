@@ -1,0 +1,16 @@
+PODS:
+  - MKCutImageViewController (0.1.0)
+
+DEPENDENCIES:
+  - MKCutImageViewController (from `../`)
+
+EXTERNAL SOURCES:
+  MKCutImageViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MKCutImageViewController: 10b47a8019ecf88560bc24d68f112af737a8ab51
+
+PODFILE CHECKSUM: 17f5e6da2925ac7d1436dc2604deab12c9a08e8d
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module Pods_MKCutImageViewController_Example {
+  umbrella header "Pods-MKCutImageViewController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

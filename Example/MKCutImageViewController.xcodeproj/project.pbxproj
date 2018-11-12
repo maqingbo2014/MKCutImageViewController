@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18804F7821996E5C00389D2D /* 776D971C36F80E020DB9893F1037B677.png in Resources */ = {isa = PBXBuildFile; fileRef = 18804F7721996E5C00389D2D /* 776D971C36F80E020DB9893F1037B677.png */; };
 		278A977B80AA3C4B2DA35A3F /* Pods_MKCutImageViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3411FCD77CBA3E79E87D71 /* Pods_MKCutImageViewController_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -38,9 +39,10 @@
 
 /* Begin PBXFileReference section */
 		0F3411FCD77CBA3E79E87D71 /* Pods_MKCutImageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKCutImageViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18804F7721996E5C00389D2D /* 776D971C36F80E020DB9893F1037B677.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 776D971C36F80E020DB9893F1037B677.png; sourceTree = "<group>"; };
 		4E545232C45F1B66E40E6602 /* Pods-MKCutImageViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKCutImageViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKCutImageViewController_Tests/Pods-MKCutImageViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4EEA2CED5221DE52BAA64BB9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		536BE535A4717FF0888AF3C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4EEA2CED5221DE52BAA64BB9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		536BE535A4717FF0888AF3C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MKCutImageViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKCutImageViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +66,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B3C02501050F6AF5F635D66 /* Pods-MKCutImageViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKCutImageViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKCutImageViewController_Tests/Pods-MKCutImageViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A1A09C6B0141604E738CBD1C /* MKCutImageViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MKCutImageViewController.podspec; path = ../MKCutImageViewController.podspec; sourceTree = "<group>"; };
+		A1A09C6B0141604E738CBD1C /* MKCutImageViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MKCutImageViewController.podspec; path = ../MKCutImageViewController.podspec; sourceTree = "<group>"; };
 		A4564B46BF68A2770ED671DE /* Pods-MKCutImageViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKCutImageViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKCutImageViewController_Example/Pods-MKCutImageViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F9DA6F43172D44CD177573F4 /* Pods-MKCutImageViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKCutImageViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKCutImageViewController_Example/Pods-MKCutImageViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,6 +147,7 @@
 			children = (
 				6003F59C195388D20070C39A /* MKAppDelegate.h */,
 				6003F59D195388D20070C39A /* MKAppDelegate.m */,
+				18804F7721996E5C00389D2D /* 776D971C36F80E020DB9893F1037B677.png */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MKViewController.h */,
 				6003F5A6195388D20070C39A /* MKViewController.m */,
@@ -276,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18804F7821996E5C00389D2D /* 776D971C36F80E020DB9893F1037B677.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,

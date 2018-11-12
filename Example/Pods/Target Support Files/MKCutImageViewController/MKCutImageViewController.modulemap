@@ -1,0 +1,6 @@
+framework module MKCutImageViewController {
+  umbrella header "MKCutImageViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
