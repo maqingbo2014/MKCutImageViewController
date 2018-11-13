@@ -7,7 +7,7 @@
 //
 
 #import "MKViewController.h"
-#import <MKCutImageViewController/MKCutImageViewController.h>
+@import MKCutImageViewController;
 
 @interface MKViewController ()
 {
